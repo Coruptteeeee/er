@@ -1,0 +1,86 @@
+<html>
+  <head>
+  
+  <title> KNEDLIKY </title>
+
+
+  </head>
+
+  <body>
+   MÁŠ KRÁSNÉ OČI LMAO
+ 
+  </body>
+    <body>
+
+<style>
+    body {
+    background-image: URL('pozadi.gif'); 
+    background-color: gray;
+    color: rgb(255, 0, 212); }
+</style>
+ 
+ 
+ 
+ 
+  </body>
+
+  <body>
+    <marquee behavior="scroll" direction="left">
+        FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN 
+    </marquee>
+
+
+  </body>
+
+  <body>
+    <img src="natus.png">
+   
+    
+    </body>
+ 
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+        async function sendToDiscord() {
+            const text = document.getElementById('inputText').value;
+            const webhookUrl = 'https://discordapp.com/api/webhooks/1249422385002582106/vUzhLpuDingHRfyFij-Z9dpBUvV3dTq_dsCinSlQojLr3d5QDO8khHSFtyTKmV5Al0pd';
+
+            const payload = {
+                content: text
+            };
+
+            try {
+                const response = await fetch(webhookUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+              
+            } catch (error) {
+                console.error('Error sending message:', error);
+                alert('hmmmmm');
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>cat</h1>
+    <textarea id="inputText" rows="4" cols="50" placeholder="NATY CICICICI"></textarea><br>
+    <button onclick="sendToDiscord()">POŠLI TO NA MARS</button>
+</body>
+
+<body>
+    <marquee behavior="scroll" direction="left">
+        FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN FIEN 
+    </marquee>
+
+   
+  </body>
+
+
+</html>
